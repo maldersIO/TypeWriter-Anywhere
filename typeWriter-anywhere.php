@@ -1,8 +1,8 @@
 <?php
 /**
-* Plugin Name: Add PluginName
-* Plugin URI: https://github.com/FreshyMichael/Plugin-Starter
-* Description: Add a Description
+* Plugin Name: TypeWriter Anywhere
+* Plugin URI: https://github.com/FreshyMichael/TypeWriter-Anywhere
+* Description: Use this plugin to add a simple TypeWriter function inside text and code modules
 * Version: 1.0.0
 * Author: FreshySites
 * Author URI: https://freshysites.com/
@@ -24,10 +24,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 // ***IMPORTANT*** Update this path to New Github Repository Master Branch Path
-	'https://github.com/FreshyMichael/Plugin-Starter',
+	'https://github.com/FreshyMichael/TypeWriter-Anywhere',
 	__FILE__,
 // ***IMPORTANT*** Update this to New Repository Master Branch Path
-	'Plugin-Starter'
+	'TypeWriter-Anywhere'
 );
 //Enable Releases
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
