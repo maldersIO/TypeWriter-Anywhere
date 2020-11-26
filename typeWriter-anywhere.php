@@ -19,8 +19,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 add_action( 'wp_enqueue_scripts', 'fs_typeWriter_scripts' );
 function fs_typeWriter_scripts() {
     $dir = plugin_dir_url(__FILE__);
-    wp_enqueue_style('fs-typeWriter-scripts', $dir . '/styles.css', array(), '1.0.0', 'all');
-    wp_enqueue_script( 'script', $dir . '/js/typeWriter-anywhere.js', array ('txt/javascript'), '1.0.0', true);	
+    wp_enqueue_style('fs-typeWriter-scripts', $dir . 'includes/css/styles.css', array(), '1.0.0', 'all');
+    wp_enqueue_script( 'script', $dir . 'includes/js/typeWriter-anywhere.js', array ('txt/javascript'), '1.0.0', true);	
 }
 
 //______________________________________________________________________________
