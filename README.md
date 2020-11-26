@@ -3,7 +3,7 @@
   <h3>Usage</h3>
   <hr>
     
-      <span class="txt-type" data-wait="3000" data-words='["Your", "Words", "Here"]'>
+      <span class="txt-type" data-wait="3000" data-words='["Your", "Words", "Here"]'></span>
  
 
 
