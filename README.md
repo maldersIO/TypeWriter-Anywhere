@@ -1,4 +1,4 @@
-<h2># TypeWriter Anywhere<h2><br>
+<h2># TypeWriter Anywhere</h2><br>
 <p>Use this plugin to add a simple TypeWriter function inside text and code modules</p>
   <h3>Usage</h3>
   <hr>
