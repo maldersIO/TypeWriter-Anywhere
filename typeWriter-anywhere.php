@@ -2,7 +2,7 @@
 /**
 * Plugin Name: TypeWriter Anywhere
 * Plugin URI: https://github.com/FreshyMichael/TypeWriter-Anywhere
-* Description: Use this plugin to add a simple TypeWriter function inside text and code modules
+* Description: Use this plugin to add a simple TypeWriter function inside text or code modules in any builder
 * Version: 1.0.0
 * Author: FreshySites
 * Author URI: https://freshysites.com/
@@ -13,9 +13,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die();
 }
 
-/* PluginName Start */
+/* TypeWriter Anywhere Start */
 //______________________________________________________________________________
-
+add_action('wp_enqueue_scripts','fs_typeWriter_scripts');
+function fs_typeWriter_scripts(){
+	
+}
 
 //______________________________________________________________________________
 // All About Updates
@@ -42,5 +45,5 @@ $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 //$myUpdateChecker->setBranch('stable-branch-name');
 
 //______________________________________________________________________________
-/* PluginName End */
+/* TypeWriter Anywhere End */
 ?>
