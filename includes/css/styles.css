@@ -1,4 +1,23 @@
 /* Cursor */
-.txt-type > .txt {
-  border-right: 0.2rem solid #777;
+.txt-type > .txt::after {
+	content:"|";
+	color:#777;
+	 animation: blink-animation 0.5s steps(5, start) infinite;
+  	-webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+  	margin-left:0.2rem;
+	font-weight:200;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+/*Default Text Color*/
+.txt-type{
+	color:red;
 }
