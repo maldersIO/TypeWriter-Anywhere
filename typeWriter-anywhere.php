@@ -3,7 +3,7 @@
 * Plugin Name: TypeWriter Anywhere
 * Plugin URI: https://github.com/FreshyMichael/TypeWriter-Anywhere
 * Description: Use this plugin to add a simple TypeWriter function inside text or code modules in any builder
-* Version: 1.0.0
+* Version: 1.0.1
 * Author: FreshySites
 * Author URI: https://freshysites.com/
 * License: GNU v3.0
